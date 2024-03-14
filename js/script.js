@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let newFilm = addInput.value; //содержит то что ввел пользователь
     const favorite = checkbox.checked; //стот ли галочка в чеккбоксе
 
-    //Условие, если введенное значение равно true, вудь если False то условие просто не сработает
+    //Условие, если введенное значение равно true, если False то условие просто не сработает
     if (newFilm) {
       if (newFilm.length > 21) {
         //проверка введенного значения фильма, не больше ли 21 символа
